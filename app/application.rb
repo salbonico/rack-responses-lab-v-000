@@ -9,7 +9,7 @@ class Application
       else
         resp.write "Good Afternoon!"
       end
-      resp.write Time.now
+      
 
 
       resp.finish
