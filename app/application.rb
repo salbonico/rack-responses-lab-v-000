@@ -6,7 +6,7 @@ class Application
 
       resp.write Time.now
 
-      resp.write time1.zone
+  
       resp.finish
   end
 
