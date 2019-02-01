@@ -4,9 +4,9 @@ class Application
 
       resp = Rack::Response.new
 
-      resp.write Time.now
+      resp.write Time.local
 
-  
+
       resp.finish
   end
 
