@@ -4,7 +4,7 @@ class Application
 
       resp = Rack::Response.new
 
-      resp.write Time.local(Time.now.to_a)
+      resp.write Time.now
 
 
       resp.finish
